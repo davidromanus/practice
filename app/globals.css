@@ -43,10 +43,12 @@ body {
 
 @media (max-width:780px){
   .side::before{
-    right:-110px;
+    width:90px;
+    right:-100px;
   }
   
   .side-incomplete::before{
-    right:-110px;
+    width:90px;
+    right:-100px;
   }
 }

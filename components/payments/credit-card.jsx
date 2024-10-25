@@ -60,11 +60,11 @@ export default function CreditCard(){
                 <input 
                   type="month"  
                   className="peer w-full px-4 py-4 rounded-lg bg-gray-50 placeholder:text-sm placeholder:text-gray-400 text-sm font-medium outline outline-gray-100 border-none" 
-                  placeholder="Month/Year"
+                  placeholder="MM/YY"
                 />
               </div>
               <div className="w-1/2 flex-col space-y-2">
-                <label className="text-sm">CVV</label>
+                <label className="text-sm text-gray-900">CVV</label>
                 <input 
                   type="number"
                   maxLength={3}  
@@ -74,8 +74,8 @@ export default function CreditCard(){
               </div>
             </div>
             <div className="flex justify-between mt-5">
-              <p className="text-sm font-medium">Save card data for future payment</p>
-              <div className="toggle relative inline-block w-12 h-6 bg-blue-300 rounded-full cursor-pointer" onClick={()=>{setToggle(!toggle)}}>
+              <p className="text-sm text-gray-900">Save card data for future payment</p>
+              <div className="toggle relative inline-block w-12 h-6 bg-blue-100 rounded-full cursor-pointer" onClick={()=>{setToggle(!toggle)}}>
                 <div id="indicator" className={`absolute ${toggle?'right-0':'left-0'} w-6 h-6 bg-blue-800 rounded-full`}></div>
               </div>
             </div>
