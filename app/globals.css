@@ -40,3 +40,13 @@ body {
   top:15px;
   right:-120px;
 }
+
+@media (max-width:780px){
+  .side::before{
+    right:-110px;
+  }
+  
+  .side-incomplete::before{
+    right:-110px;
+  }
+}

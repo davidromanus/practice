@@ -36,7 +36,7 @@ export default function CreditCard(){
         <div className="mt-5">
           <form id="creditCardForm">
             <div className="flex-col space-y-2 mt-4">
-              <label className="font-medium text-sm">Card holder</label>
+              <label className="text-sm text-gray-900">Card holder</label>
               <input 
                 type="text" 
                 className="peer w-full px-4 py-4 rounded-lg bg-gray-50 placeholder:text-sm placeholder:text-gray-400 text-sm font-medium outline outline-gray-100 border-none" 
@@ -44,7 +44,7 @@ export default function CreditCard(){
               />
             </div>
             <div className="flex-col space-y-2 mt-5">
-              <label className="font-medium text-sm">Card Number</label>
+              <label className="text-sm text-gray-900">Card Number</label>
               <input 
                 type="text" 
                 maxLength={19} 
@@ -56,7 +56,7 @@ export default function CreditCard(){
             </div>
             <div className="flex space-x-5 mt-5">
               <div className="w-1/2 flex-col space-y-2">
-                <label className="font-medium text-sm">Card Number</label>
+                <label className="text-sm text-gray-900">Expiry Date</label>
                 <input 
                   type="month"  
                   className="peer w-full px-4 py-4 rounded-lg bg-gray-50 placeholder:text-sm placeholder:text-gray-400 text-sm font-medium outline outline-gray-100 border-none" 
@@ -64,7 +64,7 @@ export default function CreditCard(){
                 />
               </div>
               <div className="w-1/2 flex-col space-y-2">
-                <label className="font-medium text-sm">Card Number</label>
+                <label className="text-sm">CVV</label>
                 <input 
                   type="number"
                   maxLength={3}  
