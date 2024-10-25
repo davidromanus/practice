@@ -48,7 +48,7 @@ body {
   }
   
   .side-incomplete::before{
-    width:90px;
+    width:80px;
     right:-90px;
   }
 }
