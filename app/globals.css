@@ -23,32 +23,32 @@ body {
 /**/
 .side::before{
   content:'';
-  width:100px;
+  width:148px;
   height:2px;
-  background:green;
+  background:linear-gradient(rgb(25, 172, 25),rgb(36, 206, 135));
   position:absolute;
   top:15px;
-  right:-120px;
+  right:-148px;
 }
 
 .side-incomplete::before{
   content:'';
-  width:100px;
+  width:148px;
   height:2px;
   background:rgb(141, 141, 141);
   position:absolute;
   top:15px;
-  right:-120px;
+  right:-148px;
 }
 
 @media (max-width:780px){
   .side::before{
-    width:80px;
-    right:-90px;
+    width:120px;
+    right:-120px;
   }
   
   .side-incomplete::before{
-    width:80px;
-    right:-90px;
+    width:120px;
+    right:-120px;
   }
 }

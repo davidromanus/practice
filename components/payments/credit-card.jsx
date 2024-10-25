@@ -39,7 +39,7 @@ export default function CreditCard(){
               <label className="text-sm text-gray-900">Card holder</label>
               <input 
                 type="text" 
-                className="peer w-full px-4 py-4 rounded-lg bg-gray-50 placeholder:text-sm placeholder:text-gray-400 text-sm font-medium outline outline-gray-100 border-none" 
+                className="peer w-full px-4 py-4 rounded-lg bg-gray-50 placeholder:text-sm placeholder:text-gray-400 text-sm text-gray-900 outline outline-gray-100 border-none" 
                 placeholder="Your name and Surname"
               />
             </div>
@@ -50,16 +50,16 @@ export default function CreditCard(){
                 maxLength={19} 
                 value={cardNumber} 
                 onChange={(e)=>{formatCardNumber(e.target.value)}} 
-                className="peer w-full px-4 py-4 rounded-lg bg-gray-50 placeholder:text-sm placeholder:text-gray-400 text-sm font-medium outline outline-gray-100 border-none" 
+                className="peer w-full px-4 py-4 rounded-lg bg-gray-50 placeholder:text-sm placeholder:text-gray-400 text-sm text-gray-900 outline outline-gray-100 border-none" 
                 placeholder="**** **** **** ****"
               />
             </div>
             <div className="flex space-x-5 mt-5">
-              <div className="w-1/2 flex-col space-y-2">
+              <div className="w-1/2 flex flex-col space-y-2">
                 <label className="text-sm text-gray-900">Expiry Date</label>
-                <input 
-                  type="month"  
-                  className="peer w-full px-4 py-4 rounded-lg bg-gray-50 placeholder:text-sm placeholder:text-gray-400 text-sm outline outline-gray-100 border-none" 
+                <input
+                  type="month"
+                  className="peer w-full px-4 py-4 rounded-lg bg-gray-50 placeholder:text-sm placeholder:text-gray-400 text-sm text-gray-900 outline outline-gray-100 border-none appearance-none"
                   placeholder="MM/YY"
                 />
               </div>
@@ -68,7 +68,7 @@ export default function CreditCard(){
                 <input 
                   type="number"
                   maxLength={3}  
-                  className="peer w-full px-4 py-4 rounded-lg bg-gray-50 placeholder:text-sm placeholder:text-gray-400 text-sm outline outline-gray-100 border-none" 
+                  className="peer w-full px-4 py-4 rounded-lg bg-gray-50 placeholder:text-sm placeholder:text-gray-400 text-sm text-gray-900 outline outline-gray-100 border-none" 
                   placeholder="***"
                 />
               </div>
