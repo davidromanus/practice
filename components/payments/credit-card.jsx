@@ -59,7 +59,7 @@ export default function CreditCard(){
                 <label className="text-sm text-gray-900">Expiry Date</label>
                 <input 
                   type="month"  
-                  className="peer w-full px-4 py-4 rounded-lg bg-gray-50 placeholder:text-sm placeholder:text-gray-400 text-sm font-medium outline outline-gray-100 border-none" 
+                  className="peer w-full px-4 py-4 rounded-lg bg-gray-50 placeholder:text-sm placeholder:text-gray-400 text-sm outline outline-gray-100 border-none" 
                   placeholder="MM/YY"
                 />
               </div>
@@ -68,7 +68,7 @@ export default function CreditCard(){
                 <input 
                   type="number"
                   maxLength={3}  
-                  className="peer w-full px-4 py-4 rounded-lg bg-gray-50 placeholder:text-sm placeholder:text-gray-400 text-sm font-medium outline outline-gray-100 border-none" 
+                  className="peer w-full px-4 py-4 rounded-lg bg-gray-50 placeholder:text-sm placeholder:text-gray-400 text-sm outline outline-gray-100 border-none" 
                   placeholder="***"
                 />
               </div>
