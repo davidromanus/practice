@@ -19,3 +19,24 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/**/
+.side::before{
+  content:'';
+  width:100px;
+  height:2px;
+  background:green;
+  position:absolute;
+  top:15px;
+  right:-120px;
+}
+
+.side-incomplete::before{
+  content:'';
+  width:100px;
+  height:2px;
+  background:rgb(141, 141, 141);
+  position:absolute;
+  top:15px;
+  right:-120px;
+}
